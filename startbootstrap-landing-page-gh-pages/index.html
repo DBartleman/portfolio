@@ -25,39 +25,44 @@
   <body>
 
     <!-- Navigation -->
-    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="mailto:abartlem@ucsd.edu">Contact</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photography">Photography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#design">Design</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    -->
 
     <!-- Header -->
     <header class="intro-header">
       <div class="container">
         <div class="intro-message">
-          <h1>Drew Bartleman</h1>
+          <h1>Andrew Bartleman</h1>
+          <h2>University of California, San Diego Alumnus</h2>
           <h3>Cognitive Science, Human-Computer Interaction</h3>
           <hr class="intro-divider">
           <ul class="list-inline intro-social-buttons">
-            <!--
+            <!-- (unused since I don't have twitter... yet)
             <li class="list-inline-item">
               <a href="#" class="btn btn-secondary btn-lg">
                 <i class="fa fa-twitter fa-fw"></i>
@@ -83,91 +88,120 @@
     </header>
 
     <!-- Page Content -->
-    <section class="content-section-b">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 ml-auto">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Design<br></h2>
-            <p class="lead">From spending hours changing how my operating system functions to altering the layout of my wallet, I like improving on all aspects of design. </p>
+    <a id="skills">
+      <section class="content-section-b">
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-5 ml-auto">
+                <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Skills<br></h2>
+              <p class="lead">Languages: Java, C++, Python, HTML, Javascript, and x86 Assembly.<br>Technologies: Logstash, Kibana, IntelliJ, Gradle, Jupyter, subversion, git, JIRA, and Crucible.</p>
+            </div>
+            <div class="col-lg-5 mr-auto ">
+              <img class="img-fluid" src="img/typingcrop.png" alt="Hands on a keyboard, ready to type.">
+            </div>
           </div>
-          <div class="col-lg-5 mr-auto">
-            <img class="img-fluid" src="img/design.png" alt="A collection of various objects: an old ladies' perfume atomizer, two different types of stapler, a pair of glasses, a wallet, keys, other milled metal objects.">
-          </div>
+
         </div>
+        <!-- /.container -->
 
-      </div>
-      <!-- /.container -->
-    </section>
+      </section>
+      <!-- /.content-section-a -->
+    </a>
 
-    <section class="content-section-a">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 mr-auto order-lg-2">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Photography<br></h2>
-            <!--
-            <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by
-              <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-            -->
-            <p class="lead">This photo was taken in Las Vegas, Nevada. I love taking photos of desert landscapes, city scapes, sunsets and mountains. All of the photos on this page have also been taken by me.</p>
+    <a id="experience">
+      <section class="content-section-a">
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-5 mr-auto order-lg-2">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Experience<br></h2>
+              <p class="lead">I interned on the OMS Service Reliability Engineering team at Workday, Inc in a team of three interns. The project was a Java application used to visualize and compare log output between WATS runs
+  using Grafana, InfluxDB, Logstash and Graphite.</p>
+            </div>
+            <div class="col-lg-5 ml-auto order-lg-1">
+              <img class="img-fluid" src="img/omscrop.png" alt="A picture of me next to a handmade OMS sign within a Workday office.">
+            </div>
           </div>
-          <div class="col-lg-5 ml-auto order-lg-1">
-            <img class="img-fluid" src="img/photography.png" alt="A picture from high up, showing a curving highway through the outskirts of Las Vegas">
-          </div>
+
         </div>
+        <!-- /.container -->
 
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.content-section-b -->
+      </section>
+      <!-- /.content-section-a -->
+    </a>
 
-    <section class="content-section-b">
+    <a id="projects">
+      <section class="content-section-b">
 
-      <div class="container">
+        <div class="container">
 
-        <div class="row">
-          <div class="col-lg-5 ml-auto">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Projects<br></h2>
-            <p class="lead">I worked in a team of four to process, clean, and extrapolate data using pandas, numpy, pyplot, patsy, statsmodels and many more. The project involved generating a report that showed a correlation between rising temperature with rising sea level using real data from NASA.</p>
+          <div class="row">
+            <div class="col-lg-5 ml-auto">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Projects<br></h2>
+              <p class="lead">I worked in a team of four to process, clean, and extrapolate data using pandas, numpy, pyplot, patsy, statsmodels and many more. The project involved generating a report that showed a correlation between rising temperature with rising sea level using real data from NASA.</p>
+            </div>
+            <div class="col-lg-5 mr-auto ">
+              <img class="img-fluid" src="img/dataproject.png" alt="Some code in a Jupyter Notebook for visualizing data, and the corresponding visualization.">
+            </div>
           </div>
-          <div class="col-lg-5 mr-auto ">
-            <img class="img-fluid" src="img/dataproject.png" alt="Some code in a Jupyter Notebook for visualizing data, and the corresponding visualization.">
-          </div>
+
         </div>
+        <!-- /.container -->
 
-      </div>
-      <!-- /.container -->
+      </section>
+      <!-- /.content-section-a -->
+    </a>
 
-    </section>
-    <!-- /.content-section-a -->
-
-    <section class="content-section-a">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-5 mr-auto order-lg-2">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Experience<br></h2>
-            <p class="lead">I interned on the OMS Service Reliability Engineering team at Workday, Inc in a team of three interns. The project was a Java application used to visualize and compare log output between WATS runs
-using Grafana, InfluxDB, Logstash and Graphite.</p>
+    <a id="photography">
+      <section class="content-section-a">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 mr-auto order-lg-2">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Photography<br></h2>
+              <p class="lead">This photo was taken in Las Vegas, Nevada. I love taking photos of desert landscapes, city scapes, sunsets and mountains. All of the photos on this page have also been taken by me.</p>
+            </div>
+            <div class="col-lg-5 ml-auto order-lg-1">
+              <img class="img-fluid" src="img/photography.png" alt="A picture from high up, showing a curving highway through the outskirts of Las Vegas">
+            </div>
           </div>
-          <div class="col-lg-5 ml-auto order-lg-1">
-            <img class="img-fluid" src="img/gaming.png" alt="Side view of an LED-lit gaming rig, fans spinning.">
-          </div>
+
         </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.content-section-b -->
+    </a>
 
-      </div>
-      <!-- /.container -->
+    <a id="design">
+      <!-- Page Content -->
+      <section class="content-section-b">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 ml-auto">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Design<br></h2>
+              <p class="lead">From spending hours changing how my operating system functions to altering the layout of my wallet, I like improving on all aspects of design. </p>
+            </div>
+            <div class="col-lg-5 mr-auto">
+              <img class="img-fluid" src="img/design.png" alt="A collection of various objects: an old ladies' perfume atomizer, two different types of stapler, a pair of glasses, a wallet, keys, other milled metal objects.">
+            </div>
+          </div>
 
-    </section>
-    <!-- /.content-section-a -->
+        </div>
+        <!-- /.container -->
+      </section>
+    </a>
 
     <aside class="banner">
 
@@ -175,30 +209,6 @@ using Grafana, InfluxDB, Logstash and Graphite.</p>
 
         <div class="row">
           <div class="col-lg-6 my-auto">
-            <!--<h2>Connect to Start Bootstrap:</h2>
-          </div>
-          <div class="col-lg-6 my-auto">
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                  <span class="network-name">Linkedin</span>
-                </a>
-              </li>
-            </ul>
-          -->
           </div>
         </div>
 
@@ -209,7 +219,7 @@ using Grafana, InfluxDB, Logstash and Graphite.</p>
     <!-- /.banner -->
 
     <!-- Footer -->
-    <!--
+    <!-- (unused footer, left in comments for future implementation. I may add a button to take the user back to the top)
     <footer>
       <div class="container">
         <ul class="list-inline">
